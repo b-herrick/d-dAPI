@@ -13,12 +13,6 @@ window.addEventListener("hashchange", ()=>{
 function selectClass(){
     getEventFromHash();
     renderClassDetails();
-    //Thanks Morgan
-    window.scroll({
-        top:0,
-        left:0,
-        behavior:"smooth"
-    })
 }
 
 function getEventFromHash(){
